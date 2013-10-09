@@ -1,0 +1,14 @@
+Types d'armes :
+- Boomerang
+- Epée 1 main
+- Epée 2 main
+- Arbalète
+- Hache 1 main
+- Hache 2 main
+- Hallebarde
+- Bouclier
+- Dague (Forcément équipé en double donc sous-entendu par paire. Ou pas et faut en posséder forcément deux?)
+- Lance
+- Arc
+- Bâton
+- Double-lame à la Djidane de FF9 ??? 
