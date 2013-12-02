@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.12)  12 OCT 2013 15:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.5)  3 DEC 2013 00:46
 entering extended mode
 **specifications.tex
-(D:\GitHub\Klifehrian\Specifications\specifications.tex
+(E:\Documents\Github\Klifehrian\Specifications\specifications.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("D:\Program Files\MiKteX\tex\latex\base\book.cls"
+(D:\MiKteX\tex\latex\base\book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("D:\Program Files\MiKteX\tex\latex\base\bk12.clo"
+(D:\MiKteX\tex\latex\base\bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -30,35 +30,31 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("D:\Program Files\MiKteX\tex\latex\base\inputenc.sty"
+) (D:\MiKteX\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("D:\Program Files\MiKteX\tex\latex\base\latin1.def"
+(D:\MiKteX\tex\latex\base\latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
-))
-("D:\Program Files\MiKteX\tex\latex\base\fontenc.sty"
+)) (D:\MiKteX\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("D:\Program Files\MiKteX\tex\latex\base\t1enc.def"
+(D:\MiKteX\tex\latex\base\t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-("D:\Program Files\MiKteX\tex\generic\babel\babel.sty"
+)) (D:\MiKteX\tex\generic\babel\babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("D:\Program Files\MiKteX\tex\latex\00miktex\bblopts.cfg"
+(D:\MiKteX\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("D:\Program Files\MiKteX\tex\generic\babel\english.ldf"
+(D:\MiKteX\tex\generic\babel\english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
-
-("D:\Program Files\MiKteX\tex\generic\babel\babel.def"
+ (D:\MiKteX\tex\generic\babel\babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -66,12 +62,10 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-))
-("D:\Program Files\MiKteX\tex\latex\ltxmisc\url.sty"
+)) (D:\MiKteX\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-("D:\Program Files\MiKteX\tex\latex\lm\lmodern.sty"
+) (D:\MiKteX\tex\latex\lm\lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -106,7 +100,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("D:\Program Files\MiKteX\tex\latex\fancyhdr\fancyhdr.sty"
+(D:\MiKteX\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -117,65 +111,109 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(D:\GitHub\Klifehrian\Specifications\specifications.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 16.
+(D:\MiKteX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\Program Files\MiKteX\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(D:\MiKteX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
+(D:\MiKteX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("D:\Program Files\MiKteX\tex\latex\lm\ot1lmr.fd"
+(D:\MiKteX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\MiKteX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(D:\MiKteX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(D:\MiKteX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(D:\MiKteX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(E:\Documents\Github\Klifehrian\Specifications\specifications.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 17.
+
+(D:\MiKteX\tex\latex\lm\t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (D:\MiKteX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count90
+\scratchdimen=\dimen106
+\scratchbox=\box26
+\nofMPsegments=\count91
+\nofMParguments=\count92
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count93
+\MPscratchDim=\dimen107
+\MPnumerator=\count94
+\makeMPintoPDFobject=\count95
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
+ (D:\MiKteX\tex\latex\lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 17.
-
-("D:\Program Files\MiKteX\tex\latex\lm\omllmm.fd"
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 18.
+ (D:\MiKteX\tex\latex\lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 17.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 18.
 
 
-("D:\Program Files\MiKteX\tex\latex\lm\omslmsy.fd"
+(D:\MiKteX\tex\latex\lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 17.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 18.
 
-
-("D:\Program Files\MiKteX\tex\latex\lm\omxlmex.fd"
+ (D:\MiKteX\tex\latex\lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 17.
+(Font)              <14.4> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 17.
+(Font)              <10> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 17.
- [1
+(Font)              <7> on input line 18.
+
+[1
 
 
-{C:/Users/Zethzer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [0
+{C:/Users/Zethzer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[0
 
 ] [1] [2]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 27.
-("D:\Program Files\MiKteX\tex\latex\lm\omslmr.fd"
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
+(D:\MiKteX\tex\latex\lm\omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 27.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
  [3
 
 ] [4
@@ -200,30 +238,42 @@ Chapter 5.
 
 ]
 Chapter 6.
-[21] [22
+[21] [22] [23] [24] [25] [26] [27]
+<C:/Users/Zethzer/Desktop/gameboard3.jpg, id=98, 436.63126pt x 370.38374pt>
+File: C:/Users/Zethzer/Desktop/gameboard3.jpg Graphic file (type jpg)
 
-] [23] [24]
+<use C:/Users/Zethzer/Desktop/gameboard3.jpg>
+Package pdftex.def Info: C:/Users/Zethzer/Desktop/gameboard3.jpg used on input 
+line 595.
+(pdftex.def)             Requested size: 436.63019pt x 370.38283pt.
+
+Overfull \hbox (46.63019pt too wide) in paragraph at lines 595--596
+ [][] 
+ []
+
+[28 <C:/Users/Zethzer/Desktop/gameboard3.jpg>] [29
+
+] [30]
 Chapter 7.
-[25
+[31
 
-] [26] (D:\GitHub\Klifehrian\Specifications\specifications.aux) ) 
+] [32] (E:\Documents\Github\Klifehrian\Specifications\specifications.aux) ) 
 Here is how much of TeX's memory you used:
- 1140 strings out of 493921
- 14032 string characters out of 3148879
- 62193 words of memory out of 3000000
- 4450 multiletter control sequences out of 15000+200000
+ 2042 strings out of 493921
+ 25486 string characters out of 3154494
+ 79624 words of memory out of 3000000
+ 5318 multiletter control sequences out of 15000+200000
  51602 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 24i,6n,43p,507b,240s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Program Fi
-les/MiKteX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Program Files/MiKteX/fonts/enc/
-dvips/lm/lm-ec.enc}<D:/Program Files/MiKteX/fonts/type1/public/lm/lmbx12.pfb><D
-:/Program Files/MiKteX/fonts/type1/public/lm/lmr12.pfb><D:/Program Files/MiKteX
-/fonts/type1/public/lm/lmr17.pfb><D:/Program Files/MiKteX/fonts/type1/public/lm
-/lmri12.pfb><D:/Program Files/MiKteX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on specifications.pdf (28 pages, 129622 bytes).
+ 27i,6n,43p,507b,260s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/
+MiKteX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/MiKteX/fonts/enc/dvips/lm/lm-ec.enc
+}<D:/MiKteX/fonts/type1/public/lm/lmbx12.pfb><D:/MiKteX/fonts/type1/public/lm/l
+mr12.pfb><D:/MiKteX/fonts/type1/public/lm/lmr17.pfb><D:/MiKteX/fonts/type1/publ
+ic/lm/lmri12.pfb><D:/MiKteX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on specifications.pdf (34 pages, 197831 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,11 +6,12 @@
 \usepackage{url}
 \usepackage{lmodern}
 \usepackage{fancyhdr}
+\usepackage{graphicx}
 
 \pagestyle{plain}
 
 \title{\Huge{Klifehrian} \\ \large{Specifications}}
-\author{K\'{e}vin \textit{''Linkyu''} \textbf{Guiraud} \\ Yannick \textit{''Zethzer''} \textbf{Bernard} \\ Masami \textbf{Komuro}}
+\author{K\'{e}vin \textit{''Linkyu''} \textbf{Guiraud} \\ Yannick \textit{''Zethzer''} \textbf{Bernard} \\ Masami \textit{''KexXie''} \textbf{Komuro} \\ Lo\"{i}s \textit{''Plopounet''} \textbf{Paulin}}
 \date{\textbf{Last update :} \today}
 
 \begin{document}
@@ -38,7 +39,8 @@
 \begin{itemize}
 \item K\'{e}vin \textit{''Linkyu''} Guiraud
 \item Yannick \textit{''Zethzer''} Bernard
-\item Masami {Komuro}
+\item Masami \textit{''KexXie''} Komuro
+\item Lo\"{i}s \textit{''Plopounet''} Paulin
 \end{itemize}
 %-------------------------------------------------------------------------------------------
 \end{itemize}
@@ -55,8 +57,6 @@ Blabla
 Blabla
 
 Blabla
-%-------------------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section*{Yannick Bernard}
 \paragraph{Hi !} I'm twenty-two years old. I'm a undergraduate in Computer Sciences at the university Paul Sabatier in France. My passion for Computer Sciences time since the age of my 12 years. I started with a single computer and then from the age of 15, I began to study the IT in autodidact and I always continued since. I got my baccalaureat and started studies in IT at university.
@@ -75,7 +75,11 @@ About Klifehrian, I'm the second member of the team \{.exe\}. For this game, I w
 
 In a word, I am a geek.
 %-------------------------------------------------------------------------------------------
+\section*{Masami Komuro}
+Blablabla
 %-------------------------------------------------------------------------------------------
+\section*{Lo\"{i}s Paulin}
+Blablabla
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -367,12 +371,231 @@ Bla
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \chapter{The card game : ''Insert a name''}
-Bla
+This card game is an annex activity in the game. The player can play that or not. The ''Legendary Card'' interferes in the game.
 %-------------------------------------------------------------------------------------------
-\section{Rules}
-Bla
+\section{Specifications :}
+\begin{itemize}
+\item 40 cards maximum in the deck
+\item \textbf{Number to define} cards in the game
+\item 1 vs 1
+\item 25 health points per player
+\item Maximum 3 same monster cards in the deck.
+\item Maximum 2 same trap cards in the deck.
+\item Maximum 2 same instant cards in the deck.
+\end{itemize}
+%-
+\textbf{Cards type :}
+\begin{itemize}
+\item Monsters : \textbf{Types to define}
+\item Traps : Never attack the player directly
+\item Instants : Never attack the health points of the player directly
+\end{itemize}
+%-
+\textbf{Rarity level :}
+\begin{itemize}
+\item Common : The player can buy it to a specific NPC. He can win the card against a NPC Player. And he can found it in chest.
+\item Rare : The player can win the card against a NPC player. And he can found it in chest.
+\item Legendary : Steal it only on specific boss. (So, the player need a dexterity specialization in his team. And not every boss). He can found : 1 instant card in a chest and 1 trap card in a other chest (Quest suite for both).
+\end{itemize}
+
 %-------------------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------------------
+\section{Rules :}
+\subsection{Game procedures}
+\begin{enumerate}
+	\item Each player pick 7 cards (7 cards maximum in the hand. Else, the player discard cards up to 7)
+	\begin{itemize}
+		\item The player pick a card when it's his turn.
+	\end{itemize}
+		\item One color per player : Red and Blue. A coin is tossed to see who starts.
+		\item The chosen player starts (or the player who is his turn):
+	\begin{itemize}
+		\item Case A : The player poses a monster card. (The monster card cannot attack when he's poses)
+		\item Case B : The player poses a trap card face down.
+		\item NB : The player can do ''Case A'' or ''Case B''
+		\item Case C : The player poses a monster card and a trap card face down.
+		\item NB : The ''Case C'' is forbidden the first two turns. (Explanation : The first player play, after the second and now, it's third turn time)
+		\item Case D : The player want to play a instant card. It's forbidden the first two turns.
+		\item NB : So, each player in the first two turns have : One monster card or one trap card (face down).
+	\end{itemize}
+	\item When it's the third turn (Explanation : Each player play one card), we can have a attack/defense phase.
+\item After the third turn, the case A, B, C or D can apply. And we continue up to a player lost all his health points.
+\item \textbf{IMPORTANT : The player disengage his card when it's his turn.}
+\end{enumerate}
+%---
+\subsubsection{Attack/Defense phase}
+\begin{itemize}
+	\item A single instant card can be play.
+	\item A attacking monster engages (the card rotates 90 degrees)
+	\item A engage monster cannot defend.
+		\begin{itemize}
+			\item A monster can be engage for only his effect. (If it's for that, he can't attack)
+			\item A monster attacks only one card.
+			\item Several monsters can attack the same card.
+		\end{itemize}
+	\item The defending monster don't engages.
+	\item If there are several monsters vs 1 :
+		\begin{itemize}
+			\item If the first attacking monster kill the monster. The second attack into the empty. The player lose the attack and the monster rest engage.
+			\item Else the first and second (and more) attack the defending monster.
+				\begin{itemize}
+					\item If the defending monster is still alive. Possibility :
+					\begin{itemize}
+						\item Case A : Add an other monster for attack (the monster is engaged for that).
+						\item Case B : Use an instant card.
+					\end{itemize}
+					\item Else, the defending monster is dead.
+				\end{itemize}
+		\end{itemize}
+\item Else, we have a 1 vs 1 :
+	\begin{itemize}
+	\item If the defending monster is still alive. Possibility :
+	\begin{itemize}
+		\item Case A : Add an other monster for attack (the monster is engaged for that).
+		\item Case B : Use an instant card.
+	\end{itemize}
+	\item Else, the defending monster is dead.
+	\end{itemize}
+\item NB : A trap card is triggered when the attacking monster attack if the trap card do an effect effective for that.
+\item NB : A trap card can counter an instant card if the effect of the card permit that.
+\item NB : An instant card is played :
+	\begin{itemize}
+		\item Before the attack
+		\item After the attack
+		\item For defending if we don't have a trap card or with a trap card.
+		\item \textbf{IMPORTANT : One instant card per turn}
+	\end{itemize}
+\end{itemize}
+%---
+\subsubsection{End of the party}
+\begin{itemize}
+\item The party is over when one player have his health points to 0 (or less).
+\item If the player (the gamer of Kliferhian) win the party. He win a card from the NPC.
+	\begin{itemize}
+		\item Possibility to play against almost the NPC of Kliferhian.
+			\begin{itemize}
+				\item Several NPCs have the common cards.
+				\item In Kliferhian, the player will have search specifics NPCs for certain rare cards.
+			\end{itemize}
+	\end{itemize}
+\end{itemize}
+%---
+%---
+\section{Damage range}
+\subsection{Extremums :}
+\begin{itemize}
+\item 0/5 (Defensive only with a effect for attack. Legendary Card)
+\item 5/0 (Attack only with a effect for defense. Legendary Card)
+\item 5/5 (Legendary. Unique card. The player found that card on an annex boss at the end of Kliferhian.)
+\end{itemize}
+\newpage
+\subsection{Other damage :}
+\begin{itemize}
+	\item Commons :
+	\begin{itemize}
+		\item 1/0
+		\item 1/1
+		\item 2/1
+		\item 1/2
+		\item 2/2
+		\item 0/2 (Defense without effect)
+		\item 0/3 (Defense without effect)
+	\end{itemize}
+	\item Rare :
+	\begin{itemize}
+		\item 3/1
+		\item 1/3
+		\item 2/3
+		\item 3/2
+		\item 3/3
+		\item 0/2 (Defense with effect)
+		\item 0/3 (Defense with effect)
+	\end{itemize}
+	\item Legendary :
+	\begin{itemize}
+		\item 4/2
+		\item 4/3
+		\item 3/4
+		\item 5/3
+		\item 5/2
+		\item 2/5 
+		\item 3/5
+		\item 4/4
+		\item 0/4 (Defense with effect)
+	\end{itemize}
+\end{itemize}
+%---
+%---
+\newpage
+\section{List of cards}
+This list is not definitive.
+\subsection{Monsters}
+\textbf{Bestiary to do first !}
+%--
+\subsection{Trap cards}
+\begin{itemize}
+	\item Commons :
+	\begin{itemize}
+		\item Paralyzed the monster for 1 turn
+		\item Paralyzed the monster for 2 turn
+		\item Suppression of the monster until end of turn
+		\item Returns the monster in the hand of his opponent
+		\item Removes 1 health point to the monster
+		\item Removes 2 health point to the monster
+		\item Engage an other monster on the battlefield (the defending player choose)
+		\item ...
+	\end{itemize}
+	\item Rare :
+	\begin{itemize}
+		\item Paralyzed the monster for 3 turn
+		\item Kill the monster card (Unique card)
+		\item Removes 3 health point to the monster
+		\item Engage all monsters of of the opponent (Unique card)
+		\item ...
+	\end{itemize}
+	\item Unique legendary card :
+	\begin{itemize}
+		\item Kill all monsters of the opponent
+	\end{itemize}
+\end{itemize}
+%--
+\subsection{Instant cards}
+\begin{itemize}
+	\item Commons :
+	\begin{itemize}
+		\item The opponent discards 1 card (Chosen by the caster)
+		\item The opponent discards 2 card (Chosen by the caster)
+		\item Cancels the attack of an attacking monster
+		\item Removes 1 health points to target monster (attack or not)
+		\item Removes 2 health points to target monster (attack or not)
+		\item Engage an opponent's monster
+		\item ...
+	\end{itemize}
+	\item Rare :
+	\begin{itemize}
+		\item The opponent discards 3 card (Chosen by the caster)
+		\item Cancels the attack of 2 attacking monsters
+		\item Cancels the attack all attacking monsters (Unique card)
+		\item Removes 3 health points to target monster (attack or not)
+		\item Resurrect a monster of your own cemetery
+		\item Resurrect a monster of the opponent's cemetery and take the control (Unique card)
+		\item Pick up an instant card or a trap card of your own cemetery
+		\item ...
+	\end{itemize}
+	\item Unique legendary card :
+	\begin{itemize}
+		\item Removes all cards from opponent's field
+	\end{itemize}
+\end{itemize}
+%---
+%---
+\newpage
+\section{Schema of the game board}
+\begin{figure}[ht]
+	\centering
+	\includegraphics{C:/Users/Zethzer/Desktop/gameboard3.jpg}
+	\caption{Schema of the game board}
+	\label{fig:gameboard}
+\end{figure}
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
