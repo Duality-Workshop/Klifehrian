@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.5)  3 DEC 2013 00:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.5)  3 DEC 2013 01:28
 entering extended mode
 **specifications.tex
 (E:\Documents\Github\Klifehrian\Specifications\specifications.tex
@@ -239,28 +239,31 @@ Chapter 5.
 ]
 Chapter 6.
 [21] [22] [23] [24] [25] [26] [27]
-<C:/Users/Zethzer/Desktop/gameboard3.jpg, id=98, 436.63126pt x 370.38374pt>
-File: C:/Users/Zethzer/Desktop/gameboard3.jpg Graphic file (type jpg)
+<E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg, id=98, 436.63
+126pt x 370.38374pt>
+File: E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg Graphic f
+ile (type jpg)
 
-<use C:/Users/Zethzer/Desktop/gameboard3.jpg>
-Package pdftex.def Info: C:/Users/Zethzer/Desktop/gameboard3.jpg used on input 
-line 595.
+<use E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg>
+Package pdftex.def Info: E:/Documents/Github/Klifehrian/Specifications/gameboar
+dcard.jpg used on input line 595.
 (pdftex.def)             Requested size: 436.63019pt x 370.38283pt.
 
 Overfull \hbox (46.63019pt too wide) in paragraph at lines 595--596
  [][] 
  []
 
-[28 <C:/Users/Zethzer/Desktop/gameboard3.jpg>] [29
+[28 <E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg>] [29
 
-] [30]
+]
+[30]
 Chapter 7.
 [31
 
 ] [32] (E:\Documents\Github\Klifehrian\Specifications\specifications.aux) ) 
 Here is how much of TeX's memory you used:
- 2042 strings out of 493921
- 25486 string characters out of 3154494
+ 2041 strings out of 493921
+ 25564 string characters out of 3154494
  79624 words of memory out of 3000000
  5318 multiletter control sequences out of 15000+200000
  51602 words of font info for 38 fonts, out of 3000000 for 9000
@@ -271,7 +274,7 @@ MiKteX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/MiKteX/fonts/enc/dvips/lm/lm-ec.enc
 }<D:/MiKteX/fonts/type1/public/lm/lmbx12.pfb><D:/MiKteX/fonts/type1/public/lm/l
 mr12.pfb><D:/MiKteX/fonts/type1/public/lm/lmr17.pfb><D:/MiKteX/fonts/type1/publ
 ic/lm/lmri12.pfb><D:/MiKteX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on specifications.pdf (34 pages, 197831 bytes).
+Output written on specifications.pdf (34 pages, 212006 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
