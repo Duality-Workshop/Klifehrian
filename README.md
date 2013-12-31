@@ -1,4 +1,4 @@
 Klifehrian
 ==========
 
-Klifehrian is a video game type RPG 2D Classic coded in C + + and OpenGL library.
+Klifehrian is a video game type RPG 2D Classic coded in C + + with OpenGL library. For mapping, we using Tiled (http://www.mapeditor.org/ and on Github : https://github.com/bjorn/tiled)
