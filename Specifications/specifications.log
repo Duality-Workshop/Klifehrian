@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.5)  3 DEC 2013 01:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.5)  22 JAN 2014 20:08
 entering extended mode
 **specifications.tex
 (E:\Documents\Github\Klifehrian\Specifications\specifications.tex
@@ -216,51 +216,58 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
  [3
 
-] [4
-
-]
+] [4]
 Chapter 2.
-[5] [6] [7
+[5
 
-] [8]
+] [6] [7
+
+] [8] [9] [10
+
+] [11] [12]
 Chapter 3.
-[9
+[13
 
-] [10
+] [14
 
 ]
 Chapter 4.
-[11] [12]
+[15] [16]
 Chapter 5.
-[13
+[17
 
-] [14] [15] [16] [17] [18] [19] [20
+] [18] [19] [20] [21] [22] [23] [24
 
 ]
 Chapter 6.
-[21] [22] [23] [24] [25] [26] [27]
-<E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg, id=98, 436.63
-126pt x 370.38374pt>
+[25] [26] [27] [28] [29] [30] [31]
+<E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg, id=111, 436.6
+3126pt x 370.38374pt>
 File: E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg Graphic f
 ile (type jpg)
 
 <use E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg>
 Package pdftex.def Info: E:/Documents/Github/Klifehrian/Specifications/gameboar
-dcard.jpg used on input line 595.
+dcard.jpg used on input line 623.
 (pdftex.def)             Requested size: 436.63019pt x 370.38283pt.
 
-Overfull \hbox (46.63019pt too wide) in paragraph at lines 595--596
+Overfull \hbox (46.63019pt too wide) in paragraph at lines 623--624
  [][] 
  []
 
-[28 <E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg>] [29
+[32 <E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg>] [33
 
 ]
-[30]
+[34]
 Chapter 7.
-[31
 
-] [32] (E:\Documents\Github\Klifehrian\Specifications\specifications.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 633--636
+
+ []
+
+[35
+
+] [36] (E:\Documents\Github\Klifehrian\Specifications\specifications.aux) ) 
 Here is how much of TeX's memory you used:
  2041 strings out of 493921
  25564 string characters out of 3154494
@@ -274,9 +281,9 @@ MiKteX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/MiKteX/fonts/enc/dvips/lm/lm-ec.enc
 }<D:/MiKteX/fonts/type1/public/lm/lmbx12.pfb><D:/MiKteX/fonts/type1/public/lm/l
 mr12.pfb><D:/MiKteX/fonts/type1/public/lm/lmr17.pfb><D:/MiKteX/fonts/type1/publ
 ic/lm/lmri12.pfb><D:/MiKteX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on specifications.pdf (34 pages, 212006 bytes).
+Output written on specifications.pdf (38 pages, 217723 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

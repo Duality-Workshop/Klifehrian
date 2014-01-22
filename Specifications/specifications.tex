@@ -29,10 +29,11 @@
 \item Type : RPG 2D Classic
 \item Style : Medieval fantastic
 \item Graphic style : ?
-\item Language and library :
+\item Language, library, tools :
 \begin{itemize}
 \item C++
-\item OpenGL
+\item OpenGL/SDL
+\item Tiled
 \end{itemize}
 \item Team :
 %-------------------------------------------------------------------------------------------
@@ -45,7 +46,7 @@
 %-------------------------------------------------------------------------------------------
 \end{itemize}
 %-------------------------------------------------------------------------------------------
-Insert here the life of Klifehrian and what's it.
+\newpage Insert here the life of Klifehrian and what's it.
 %-------------------------------------------------------------------------------------------
 \chapter{The Dream team}
 %-------------------------------------------------------------------------------------------
@@ -76,10 +77,37 @@ About Klifehrian, I'm the second member of the team \{.exe\}. For this game, I w
 In a word, I am a geek.
 %-------------------------------------------------------------------------------------------
 \section*{Masami Komuro}
-Blablabla
+\paragraph{Hi there !} I was born on 1990.05.10 and I'm playing music as far as I could remember. I did C++, PHP and VB programming at school but my main occupation is music ! I'm part of the first team which started Klifehrian in 2007. Kevin relied on me to write and arrange music, and to create and design sound fx. At this time I worked with old synthesizers like Korg M1 and Yamaha TG77, so I programmed myself lot of patches in order to fit into the game mood.
+
+I was so surprised when, in late 2013, Yannick and Kevin contacted me again to join the new Klifehrian Team : It meant Klifehrian would reborn ! So I accepted, and my work is now to provide high-quality audio and musics based on themes I wrote 6 years ago. The challenge is now to find all original scores and MIDI sequences (stored on floppies !!), but Original Klifehrian Music is not dead !
 %-------------------------------------------------------------------------------------------
 \section*{Lo\"{i}s Paulin}
-Blablabla
+Moi
+%-------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------
+\part{Game Engine}
+%-------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------
+\section*{What do we want?}
+For the windows, we choose a resolution of 1024x692 pixels. If the game is fullscreen, we display 2 black bands at the top and bottom, and some information of the game like : character's information, inventory, ... (The player can change the information).
+\begin{itemize}
+\item The player can move on four directions : up, down, left, right and diagonals.
+\item The player can interact with objects (chests, doors, ...), people, animals.
+\item The player can jump on certain sections of the map.
+\item The player can display HUD when the game is in window mode with a a key. (There may be press or a simple press on the key)
+\item The movement of the player is done pixels by pixels.
+\item Collisions against :
+\begin{itemize}
+\item Walls (Houses, cliffs, ...)
+\item Trees
+\item Rocs
+\item People
+\item Objects
+\item Monsters
+\end{itemize}
+\end{itemize}
+The maps are created with Tiled and export into XML Format for the 2D engine. See the gameplay part for specifics on the world of Klifehrian.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -135,7 +163,7 @@ Bla
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section{Combat}
-Bla
+The combat are mainly on Golden Sun style, except the ATB jauge on the Grandia style.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -602,19 +630,27 @@ This list is not definitive.
 %-------------------------------------------------------------------------------------------
 \part{Music}
 \chapter{What do we feel the player?}
-Blo
-\section{World}
-Blo
-\subsection{Town}
-Blo
-\subsection{Maps}
-Blo
-\subsection{Combat}
-Blo
-\section{UI}
-Blo
-\subsection{Title screen}
-Blo
-\subsection{Credits}
-Blo
+Klifehrian original themes composition was started circa february 2007. At this time, the project was developed on RPG MAKER platform, which only supports Audio or General MIDI loop tracks. So, original Klifehrian soundtrack was originally projected as GM sequences, and a few moment later, as audio tracks (made from MIDI sequences rendered on custom-programmed professional synthesizers).
+\\ \\
+Now, 7 years later, the big challenges are the following :
+\begin{itemize}
+\item Organize musical themes by reanalyzing original MIDI sequences.
+\item Write some additional themes
+\item Think about the ways for dynamically embedding audio segments into the game.
+\item Arrange, record, mix those elements.
+\end{itemize}
+Main musical axes written in 2007 are the following :
+\begin{itemize}
+\item Klifehrian melody
+\item Kren'd\^ur Theme
+\item Rufio Theme
+\item Ending Bonus Song
+\end{itemize}
+\newpage Beside this, there were several musics which were associated with events \/ functions :
+\begin{itemize}
+\item 4 battle themes (2 really used)
+\item 3 spooky \/ horror themes
+\item victory \/ fail musics
+\item Character Theme spin-offs used as event music.
+\end{itemize}
 \end{document}

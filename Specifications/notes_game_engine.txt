@@ -1,0 +1,14 @@
+Game Engine - Klifehrian :
+Découpage en modules pour une réutilisabilité et une lisibilité :
+- Core
+ -- Interfaces
+  --- Menu
+  --- Dialogues
+  --- Magasins
+  --- Battle menu
+  --- HUD
+   ---- Menu for configuring the HUD
+  --- Magasins
+ -- Battle
+ -- Movement/Collision
+ -- Maps
