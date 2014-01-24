@@ -4,6 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{url}
+\usepackage{array}
 \usepackage{lmodern}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
@@ -25,24 +26,24 @@
 \chapter{Presentation of Klifehrian}
 %-------------------------------------------------------------------------------------------
 \begin{itemize}
-\item Name : Klifehrian
-\item Type : RPG 2D Classic
-\item Style : Medieval fantastic
-\item Graphic style : ?
-\item Language, library, tools :
-\begin{itemize}
-\item C++
-\item OpenGL/SDL
-\item Tiled
-\end{itemize}
-\item Team :
+	\item Name : Klifehrian
+	\item Type : RPG 2D Classic
+	\item Style : Medieval fantastic
+	\item Graphic style : ?
+	\item Language, library, tools :
+	\begin{itemize}
+		\item C++
+		\item OpenGL/SDL
+		\item Tiled
+	\end{itemize}
+	\item Team :
 %-------------------------------------------------------------------------------------------
-\begin{itemize}
-\item K\'{e}vin \textit{''Linkyu''} Guiraud
-\item Yannick \textit{''Zethzer''} Bernard
-\item Masami \textit{''KexXie''} Komuro
-\item Lo\"{i}s \textit{''Plopounet''} Paulin
-\end{itemize}
+	\begin{itemize}
+		\item K\'{e}vin \textit{''Linkyu''} Guiraud
+		\item Yannick \textit{''Zethzer''} Bernard
+		\item Masami \textit{''KexXie''} Komuro
+		\item Lo\"{i}s \textit{''Plopounet''} Paulin
+	\end{itemize}
 %-------------------------------------------------------------------------------------------
 \end{itemize}
 %-------------------------------------------------------------------------------------------
@@ -92,19 +93,19 @@ Moi
 \section*{What do we want?}
 For the windows, we choose a resolution of 1024x692 pixels. If the game is fullscreen, we display 2 black bands at the top and bottom, and some information of the game like : character's information, inventory, ... (The player can change the information).
 \begin{itemize}
-\item The player can move on four directions : up, down, left, right and diagonals.
-\item The player can interact with objects (chests, doors, ...), people, animals.
-\item The player can jump on certain sections of the map.
-\item The player can display HUD when the game is in window mode with a a key. (There may be press or a simple press on the key)
-\item The movement of the player is done pixels by pixels.
-\item Collisions against :
+	\item The player can move on four directions : up, down, left, right and diagonals.
+	\item The player can interact with objects (chests, doors, ...), people, animals.
+	\item The player can jump on certain sections of the map.
+	\item The player can display HUD when the game is in window mode with a a key. (There may be press or a simple press on the key)
+	\item The movement of the player is done pixels by pixels.
+	\item Collisions against :
 \begin{itemize}
-\item Walls (Houses, cliffs, ...)
-\item Trees
-\item Rocs
-\item People
-\item Objects
-\item Monsters
+	\item Walls (Houses, cliffs, ...)
+	\item Trees
+	\item Rocs
+	\item People
+	\item Objects
+	\item Monsters
 \end{itemize}
 \end{itemize}
 The maps are created with Tiled and export into XML Format for the 2D engine. See the gameplay part for specifics on the world of Klifehrian.
@@ -217,8 +218,8 @@ Report to section 5.4 for bank.
 Report to section 5.5 for caravan.
 \textbf{Description of the inventory :} On the left we can choose the character. When the cursor is on the avatar, we see the inventory. For select an object, we select the character. After selecting the character and the object, a little window appear with :
 \begin{itemize}
-\item Use
-\item Exchange
+	\item Use
+	\item Exchange
 \end{itemize}
 Report to the section 4.3 for inventory in combat.
 Illustration : \\ ''Insert image here''
@@ -228,11 +229,11 @@ Illustration : \\ ''Insert image here''
 \textbf{Levels of the character :} 1 to 100 \\
 \textbf{Levels of one skill :} 1 to 3 \newpage (For instance : Fire lv.1 => Fire lv.2 => Fire lv.3)
 \begin{itemize}
-\item Strength : for physical power
-\item Intellect : for magic power
-\item Stamina : for life
-\item Agility : for to dodge, critical, and ATB speed
-\item Defense : managed by the equipment
+	\item Strength : for physical power
+	\item Intellect : for magic power
+	\item Stamina : for life
+	\item Agility : for to dodge, critical, and ATB speed
+	\item Defense : managed by the equipment
 \end{itemize}
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -255,30 +256,30 @@ In the menu, the cursor comes on the character window. You select the character 
 Specialization ''melee'' allows a character based on physical skills and strong endurance. It will be ideal for the collection of strokes and a slow but powerful attack. \newpage
 Ratio :
 \begin{itemize}
-\item Strength : 2
-\item Stamina : 1
-\item Agility : 0.75
-\item Intellect : 0.5
+	\item Strength : 2
+	\item Stamina : 1
+	\item Agility : 0.75
+	\item Intellect : 0.5
 \end{itemize}
 %-------------------------------------------------------------------------------------------
 \subsubsection{Magic}
 Specialization ''magic'' allows a character-based magical abilities and with low endurance. It will be privileged to support the team and has a panel of magical skills moderately slow but powerful. \\
 Ratio :
 \begin{itemize}
-\item Strength : 0.75
-\item Stamina : 0.5
-\item Agility : 1
-\item Intellect : 2
+	\item Strength : 0.75
+	\item Stamina : 0.5
+	\item Agility : 1
+	\item Intellect : 2
 \end{itemize}
 %-------------------------------------------------------------------------------------------
 \subsubsection{Dexterity}
 Specialization ''dexterity'' allows a character based on physical skills and an average endurance. It will be ideal for rapid damage to the enemy and has a panel of fast and powerful medium to very powerful physical skills. It is the only one able to use the skills of theft objects. \\
 Ratio :
 \begin{itemize}
-\item Strength : 1
-\item Stamina : 0.75
-\item Agility : 2
-\item Intellect : 0.5
+	\item Strength : 1
+	\item Stamina : 0.75
+	\item Agility : 2
+	\item Intellect : 0.5
 \end{itemize}
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -403,27 +404,27 @@ This card game is an annex activity in the game. The player can play that or not
 %-------------------------------------------------------------------------------------------
 \section{Specifications :}
 \begin{itemize}
-\item 40 cards maximum in the deck
-\item \textbf{Number to define} cards in the game
-\item 1 vs 1
-\item 25 health points per player
-\item Maximum 3 same monster cards in the deck.
-\item Maximum 2 same trap cards in the deck.
-\item Maximum 2 same instant cards in the deck.
+	\item 40 cards maximum in the deck
+	\item \textbf{Number to define} cards in the game
+	\item 1 vs 1
+	\item 25 health points per player
+	\item Maximum 3 same monster cards in the deck.
+	\item Maximum 2 same trap cards in the deck.
+	\item Maximum 2 same instant cards in the deck.
 \end{itemize}
 %-
 \textbf{Cards type :}
 \begin{itemize}
-\item Monsters : \textbf{Types to define}
-\item Traps : Never attack the player directly
-\item Instants : Never attack the health points of the player directly
+	\item Monsters : \textbf{Types to define}
+	\item Traps : Never attack the player directly
+	\item Instants : Never attack the health points of the player directly
 \end{itemize}
 %-
 \textbf{Rarity level :}
 \begin{itemize}
-\item Common : The player can buy it to a specific NPC. He can win the card against a NPC Player. And he can found it in chest.
-\item Rare : The player can win the card against a NPC player. And he can found it in chest.
-\item Legendary : Steal it only on specific boss. (So, the player need a dexterity specialization in his team. And not every boss). He can found : 1 instant card in a chest and 1 trap card in a other chest (Quest suite for both).
+	\item Common : The player can buy it to a specific NPC. He can win the card against a NPC Player. And he can found it in chest.
+	\item Rare : The player can win the card against a NPC player. And he can found it in chest.
+	\item Legendary : Steal it only on specific boss. (So, the player need a dexterity specialization in his team. And not every boss). He can found : 1 instant card in a chest and 1 trap card in a other chest (Quest suite for both).
 \end{itemize}
 
 %-------------------------------------------------------------------------------------------
@@ -634,23 +635,66 @@ Klifehrian original themes composition was started circa february 2007. At this 
 \\ \\
 Now, 7 years later, the big challenges are the following :
 \begin{itemize}
-\item Organize musical themes by reanalyzing original MIDI sequences.
-\item Write some additional themes
-\item Think about the ways for dynamically embedding audio segments into the game.
-\item Arrange, record, mix those elements.
+	\item Organize musical themes by reanalyzing original MIDI sequences.
+	\item Write some additional themes
+	\item Think about the ways for dynamically embedding audio segments into the game.
+	\item Arrange, record, mix those elements.
 \end{itemize}
 Main musical axes written in 2007 are the following :
 \begin{itemize}
-\item Klifehrian melody
-\item Kren'd\^ur Theme
-\item Rufio Theme
-\item Ending Bonus Song
+	\item Klifehrian melody
+	\item Kren'd\^ur Theme
+	\item Rufio Theme
+	\item Ending Bonus Song
 \end{itemize}
 \newpage Beside this, there were several musics which were associated with events \/ functions :
 \begin{itemize}
-\item 4 battle themes (2 really used)
-\item 3 spooky \/ horror themes
-\item victory \/ fail musics
-\item Character Theme spin-offs used as event music.
+	\item 4 battle themes (2 really used)
+	\item 3 spooky \/ horror themes
+	\item victory \/ fail musics
+	\item Character Theme spin-offs used as event music.
 \end{itemize}
+The new organization for music writing into Klifehrian is easy to plan, using a simple grid.
+Horizontally, the theme (melody) is chosen according to the character, or the action actor (subject) ; whereas, vertically, the background (orchestration, variation) is based on the environment and the circumstances of the scene (object).
+\\ \\
+\begin{tabular}{|>{\centering \arraybackslash}p{3cm}|>{\centering \arraybackslash}p{3cm}|>{\centering \arraybackslash}p{3cm}|>{\centering \arraybackslash}p{3cm}|}
+\hline
+ & \textbf{Kren'd\^ur} & \textbf{Rufio} & \textbf{Maeram} \\ 
+\hline
+\textbf{Town A} & seq T1A & - & - \\
+\hline
+\textbf{Town B} & seq T1B & - & - \\
+\hline
+\textbf{Map A} & - & - & - \\
+\hline
+\textbf{Map B} & - & - & - \\
+\hline
+ \textbf{...} & seq ... & seq ... & seq ... \\
+\hline
+\end{tabular}
+\\ \\ \\
+A notable exception is for battle musics. Two strategies are available :
+\begin{enumerate}
+	\item Theme depends of player-controlled character, arrangement is based on the enemy (AI-controlled)
+	\item Theme and melody are associated with the enemy, arrangement depends of player-controlled character. 
+\end{enumerate}
+Arrangement can optionally evolve according to one of the battler's life gauge. It's also possible to use conditional loopings. This subject will be developed later into the appropriate section (7.1.3)
+%------------------------------------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------------------------------
+\section{World}
+Blo
+\subsection{Towns}
+Blo
+\subsection{Maps}
+Blo
+\subsection{Combat}
+Blo
+%------------------------------------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------------------------------
+\section{UI}
+Blo
+\subsection{Titlescreen}
+Blo
+\subsection{Credits}
+Blo
 \end{document}
