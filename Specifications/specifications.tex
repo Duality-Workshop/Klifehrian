@@ -27,10 +27,10 @@
 %-------------------------------------------------------------------------------------------
 \begin{itemize}
 	\item Name : Klifehrian
-	\item Type : RPG 2D Classic
-	\item Style : Medieval fantastic
+	\item Type : Classic 2D RPG
+	\item Style : Medieval fantasy
 	\item Graphic style : ?
-	\item Language, library, tools :
+	\item Language, libraries, tools :
 	\begin{itemize}
 		\item C++
 		\item OpenGL/SDL
@@ -53,6 +53,8 @@
 %-------------------------------------------------------------------------------------------
 \section*{K\'{e}vin Guiraud}
 Your presentation boss ;)
+
+(yah yah I'll get around to that)
 
 Blabla
 
@@ -91,24 +93,24 @@ Moi
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section*{What do we want?}
-For the windows, we choose a resolution of 1024x692 pixels. If the game is fullscreen, we display 2 black bands at the top and bottom, and some information of the game like : character's information, inventory, ... (The player can change the information).
+For the window size, we chose a resolution of 1024x692 pixels. If the game is set to fullscreen, 2 black bands are displayed at the top and bottom; inside, some information of the game state, as, for example: characters' status, inventory, etc. (The player can change the displayed information).
 \begin{itemize}
-	\item The player can move on four directions : up, down, left, right and diagonals.
+	\item The player can move in eight directions : up, down, left, right and diagonals.
 	\item The player can interact with objects (chests, doors, ...), people, animals.
-	\item The player can jump on certain sections of the map.
-	\item The player can display HUD when the game is in window mode with a a key. (There may be press or a simple press on the key)
-	\item The movement of the player is done pixels by pixels.
+	\item The player can jump (in certain sections of the map only).
+	\item The player can display the HUD when the game is in window mode with the HUD key (can be toggled between a "switch" or a "keep pressing" option). By default, the key used is [Alt].
+	\item The movement of the player is done pixel by pixel.
 	\item Collisions against :
 \begin{itemize}
 	\item Walls (Houses, cliffs, ...)
 	\item Trees
-	\item Rocs
+	\item Rocks
 	\item People
 	\item Objects
 	\item Monsters
 \end{itemize}
 \end{itemize}
-The maps are created with Tiled and export into XML Format for the 2D engine. See the gameplay part for specifics on the world of Klifehrian.
+The maps are created with Tiled and exported into XML Format for the 2D engine. See the gameplay part for specifics on the world of Klifehrian.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -164,7 +166,7 @@ Bla
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section{Combat}
-The combat are mainly on Golden Sun style, except the ATB jauge on the Grandia style.
+The combat are mainly in a Golden Sun style, except the ATB jauge in a Grandia style.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -209,19 +211,19 @@ Bla
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section{Menu}
-It's important in the game. You can see the actual team, time, money and a list of actions. \\ Illustration of menu when you get it : \\ ''Insert image here''
+It's important in the game. You can see the current team, time, money and a list of actions. \\ Illustration of menu when you get it done: \\ ''Insert image here''
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \subsection{Inventory}
 No limit for the weight. Each character has his own inventory. All characters can equip every types of equipment. It is possible to have an exchange of objects between characters. It is possible to sort objects by name and type. For that, we must be in the inventory of one character. \\
-Report to section 5.4 for bank.
-Report to section 5.5 for caravan.
-\textbf{Description of the inventory :} On the left we can choose the character. When the cursor is on the avatar, we see the inventory. For select an object, we select the character. After selecting the character and the object, a little window appear with :
+See section 5.4 for bank.
+See section 5.5 for caravan.
+\textbf{Description of the inventory :} On the left we can choose the character. When the cursor is on the avatar, we see the inventory. To select an object, we select the character. After selecting the character and the object, a little window appear with:
 \begin{itemize}
 	\item Use
 	\item Exchange
 \end{itemize}
-Report to the section 4.3 for inventory in combat.
+See section 4.3 for inventory in combat.
 Illustration : \\ ''Insert image here''
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -232,8 +234,8 @@ Illustration : \\ ''Insert image here''
 	\item Strength : for physical power
 	\item Intellect : for magic power
 	\item Stamina : for life
-	\item Agility : for to dodge, critical, and ATB speed
-	\item Defense : managed by the equipment
+	\item Agility : for dodging, critical rate, and ATB speed
+	\item Defense : influenced by the equipment only
 \end{itemize}
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -245,15 +247,15 @@ Bla
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \subsection{Skills}
-Total list of skills. At the top is a window with the avatar characters. The avatar of the characters appear with color while the others are grayed out. \\ Illustration : \\ ''Insert image here''
+Complete list of skills. At the top is a window with the characters' avatars. The avatar of the selected character appears colored while the others are grayed out. \\ Illustration : \\ ''Insert image here''
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \subsection{Specialization}
-There are three specializations: melee, magic and dexterity. Each character can choose one and only one. This will change the ratio of its statistics. It can change as many times as he wants is out of combat. In combat: see section 4.3.
+There are three specializations: melee, magic and dexterity. Each character can choose one and only one. This will change the ratio of its statistics. It can change as many times as he wants when out of combat. In combat: see section 4.3.
 In the menu, the cursor comes on the character window. You select the character and a little window appears with the three specializations. \\ Illustration : \\ ''Insert image here''
 %-------------------------------------------------------------------------------------------
 \subsubsection{Melee}
-Specialization ''melee'' allows a character based on physical skills and strong endurance. It will be ideal for the collection of strokes and a slow but powerful attack. \newpage
+Specialization ''melee'' allows a character to be based on physical skills and strong endurance. It's ideal for taking many hits and it has a slow but powerful attack. \newpage
 Ratio :
 \begin{itemize}
 	\item Strength : 2
@@ -263,7 +265,7 @@ Ratio :
 \end{itemize}
 %-------------------------------------------------------------------------------------------
 \subsubsection{Magic}
-Specialization ''magic'' allows a character-based magical abilities and with low endurance. It will be privileged to support the team and has a panel of magical skills moderately slow but powerful. \\
+Specialization ''magic'' allows a character based on magical abilities and with low endurance. It will be privileged to support the team and has a panel of magical skills moderately slow but powerful. \\
 Ratio :
 \begin{itemize}
 	\item Strength : 0.75
@@ -273,7 +275,7 @@ Ratio :
 \end{itemize}
 %-------------------------------------------------------------------------------------------
 \subsubsection{Dexterity}
-Specialization ''dexterity'' allows a character based on physical skills and an average endurance. It will be ideal for rapid damage to the enemy and has a panel of fast and powerful medium to very powerful physical skills. It is the only one able to use the skills of theft objects. \\
+Specialization ''dexterity'' allows a character based on physical skills and an average endurance. It will be ideal for dealing fast damage to the enemy and has a panel of quick and powerful medium to very powerful physical skills. It is the only one able to use the skills of thievery. \\
 Ratio :
 \begin{itemize}
 	\item Strength : 1
@@ -284,7 +286,7 @@ Ratio :
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \subsection{Skills list}
-The cursor comes on the character. The gamer pick one and we change the window. Top left, it has it's avatar character. Taking full height on the right: the list of skills already activated for this character \textbf{(NUMBER TO DEFINE)}. On the left (under the avatar and on the left), the total list of skills. \\ Illustration : \\ ''Insert image here''
+The cursor comes on the character. The player pick one and the window changes. Top left, it has the character's avatar. Using the full height of the screen on the right: the list of skills already activated for this character \textbf{(NUMBER TO DEFINE)}. On the left (under the avatar and slightly more on the left of it), the total list of skills. \\ Illustration : \\ ''Insert image here''
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \subsection{Options}
@@ -293,8 +295,8 @@ The options of the game.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section{Skill system}
-\textbf{To learn a skill:} The character must wear the equipment with competence. More player combat, he gains more PCs on the jurisdiction. During learning, if the equipment is worn, the character can use the skill. To use it without the equipment, it must be fully learned. The monster is more powerful character level, more he earns PC. Some skills can not be learned if the player does not have the required level. It may be equipped with equipment with a penalty. \\
-\textbf{The increased level of competence:} To increase a skill, the character must use the skill. More he uses it, more it will increase the level of the skill. The skill will experience from its use. \textbf{(FORMULA TO DEFINE)} \\
+\textbf{To learn a skill:} The character must wear the equipment that has the competence on it. The more the character fights, the more SP (Skill Points) he gains on the skill. While learning, if the equipment is worn, the character can use the skill. To use it without the equipment, it must be fully learned. If the monster is more powerful than the character, level-wise, he earns more SP. Some skills can not be learned if the player does not have the required level. The equipment may be equipped, but with a penalty. \\
+\textbf{To increase the level of skills:} To level up a skill, the character must use the skill. The more he uses it, the more it will increase the level of the skill. The skill will gain experience from its use. \textbf{(FORMULA TO DEFINE)} \\
 \textbf{Special skills:} Skills that are specific to a character; each character has one special skill for each specialization.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -340,11 +342,11 @@ Bla
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section{Objects}
-In the game, we can found different objects. The gamer can get objects from chest, monsters after a combat. The objects can be stored in inventory, bank and caravan.
-For a role play game, the objects from monsters respect that rule : Drop by type monsters. For example, you can't find money on a wolf, but a wolf skin, wolf meat and wolf canines. (Human skin is hard for young people, so you can't find it too.)
-Report to section 5.1.1 for inventory.
-Report to section 5.4 for bank.
-Report to section 5.5 for caravan.
+In the game, can be found different items. The player can get objects from chests, monsters after a combat, etc. The objects can be stored in the inventory, the bank and the caravan.
+For role play purposes, the objects dropped by monsters respect that rule : Monsterkind drop. For example, you can't find money on a wolf, but a wolf hide, wolf meat and wolf teeth (human skin is hard for young people, so you can't find it too).
+Report to section 5.1.1 for the inventory.
+Report to section 5.4 for the bank.
+Report to section 5.5 for the caravan.
 With the equipment, report to section 5.2 for learning skill.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -399,111 +401,111 @@ Bla
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
-\chapter{The card game : ''Insert a name''}
-This card game is an annex activity in the game. The player can play that or not. The ''Legendary Card'' interferes in the game.
+\chapter{The card game: ''Insert a name''}
+This card game is an minor activity in the game. The player can play that or not. However, the ''Legendary Card'' does interfere with the game.
 %-------------------------------------------------------------------------------------------
-\section{Specifications :}
+\section{Specifications:}
 \begin{itemize}
 	\item 40 cards maximum in the deck
 	\item \textbf{Number to define} cards in the game
 	\item 1 vs 1
 	\item 25 health points per player
-	\item Maximum 3 same monster cards in the deck.
-	\item Maximum 2 same trap cards in the deck.
-	\item Maximum 2 same instant cards in the deck.
+	\item Maximum of 3 identical monster cards in the deck.
+	\item Maximum of 2 identical trap cards in the deck.
+	\item Maximum of 2 identical instant cards in the deck.
 \end{itemize}
 %-
-\textbf{Cards type :}
+\textbf{Cards type:}
 \begin{itemize}
 	\item Monsters : \textbf{Types to define}
 	\item Traps : Never attack the player directly
 	\item Instants : Never attack the health points of the player directly
 \end{itemize}
 %-
-\textbf{Rarity level :}
+\textbf{Rarity level:}
 \begin{itemize}
-	\item Common : The player can buy it to a specific NPC. He can win the card against a NPC Player. And he can found it in chest.
-	\item Rare : The player can win the card against a NPC player. And he can found it in chest.
-	\item Legendary : Steal it only on specific boss. (So, the player need a dexterity specialization in his team. And not every boss). He can found : 1 instant card in a chest and 1 trap card in a other chest (Quest suite for both).
+	\item Common: The player can buy them to a specific NPC. He can win those cards against NPC Players. And he can find them in chests.
+	\item Rare: The player can win them against NPC players. They can also be found in chests.
+	\item Legendary: Can only be stolen on specific bosses (which means the player need a dexterity-oriented character in his team). He can also find: 1 instant card in a chest and 1 trap card in a other chest (quest chain for both of those).
 \end{itemize}
 
 %-------------------------------------------------------------------------------------------
-\section{Rules :}
+\section{Rules:}
 \subsection{Game procedures}
 \begin{enumerate}
 	\item Each player pick 7 cards (7 cards maximum in the hand. Otherwise, the player discards cards until they have 7 left)
 	\begin{itemize}
-		\item The player pick a card when it's his turn.
+		\item The player picks a card when it's their turn.
 	\end{itemize}
 		\item One color per player : Red and Blue. A coin is tossed to see who starts.
 		\item The chosen player starts (whose turn it is):
 	\begin{itemize}
-		\item Case A : The player puts down a monster card. (The monster card cannot attack when he's poses)
+		\item Case A : The player puts down a monster card. (The monster card cannot attack when it's put down)
 		\item Case B : The player puts down a trap card face down.
 		\item NB : The player can do ''Case A'' or ''Case B''
 		\item Case C : The player puts down a monster card and a trap card face down.
-		\item NB : The ''Case C'' is forbidden the first two turns. (Explanation : The first player play, after the second and now, it's third turn time)
-		\item Case D : The player want to play an instant card. It's forbidden the first two turns.
+		\item NB : The ''Case C'' is forbidden in the first two turns. (Explanation : The first player play, after the second and now, it's third turn time)
+		\item Case D : The player want to play an instant card. It's forbidden in the first two turns.
 		\item NB : So, each player in the first two turns have : One monster card or one trap card (face down).
 	\end{itemize}
 	\item When it's the third turn (Explanation : Each player play one card), we can have a attack/defense phase.
-\item After the third turn, the case A, B, C or D can apply. And we continue until a player lost all his health points.
-\item \textbf{IMPORTANT : The player disengage his card when it's his turn.}
+\item After the third turn, the case A, B, C or D can apply. And we continue until a player loses all their health points.
+\item \textbf{IMPORTANT : The player disengages their card when it's their turn.}
 \end{enumerate}
 %---
 \subsubsection{Attack/Defense phase}
 \begin{itemize}
-	\item A single instant card can be play.
-	\item A attacking monster engages (the card rotates 90 degrees)
-	\item A engage monster cannot defend.
+	\item A single instant card can be played.
+	\item An attacking monster engages (the card rotates 90 degrees)
+	\item A engaged monster cannot defend.
 		\begin{itemize}
-			\item A monster can be engage for only his effect. (If it's for that, he can't attack)
+			\item A monster can be engaged for only its effect. (If it's for that, it can't attack)
 			\item A monster attacks only one card.
 			\item Several monsters can attack the same card.
 		\end{itemize}
-	\item The defending monster don't engages.
-	\item If there are several monsters vs 1 :
+	\item Defending monsters don't engage.
+	\item If there are several monsters against one:
 		\begin{itemize}
-			\item If the first attacking monster kill the monster. The second attack into the empty. The player lose the attack and the monster rest engage.
-			\item Else the first and second (and more) attack the defending monster.
+			\item If the first attacking monster kills the monster. The second attacks into the void. The player wastes the attack and the monster stays engaged.
+			\item Else the first and second (and more) attacks the defending monster.
 				\begin{itemize}
 					\item If the defending monster is still alive. Possibility :
 					\begin{itemize}
-						\item Case A : Add an other monster for attack (the monster is engaged for that).
+						\item Case A : Add an other monster for attacking (the monster is engaged for that).
 						\item Case B : Use an instant card.
 					\end{itemize}
 					\item Else, the defending monster is dead.
 				\end{itemize}
 		\end{itemize}
-\item Else, we have a 1 vs 1 :
+\item Else, we have a 1 vs 1:
 	\begin{itemize}
 	\item If the defending monster is still alive. Possibility :
 	\begin{itemize}
-		\item Case A : Add an other monster for attack (the monster is engaged for that).
+		\item Case A : Add an other monster for attacking (the monster is engaged for that).
 		\item Case B : Use an instant card.
 	\end{itemize}
 	\item Else, the defending monster is dead.
 	\end{itemize}
-\item NB : A trap card is triggered when the attacking monster attack if the trap card do an effect effective for that.
+\item NB : A trap card is triggered when the attacking monster attacks if the trap card does an effective effect for that.
 \item NB : A trap card can counter an instant card if the effect of the card permit that.
 \item NB : An instant card is played :
 	\begin{itemize}
 		\item Before the attack
 		\item After the attack
-		\item For defending if we don't have a trap card or with a trap card.
+		\item For defending if the defending plyer doesn't have a trap card or with a trap card.
 		\item \textbf{IMPORTANT : One instant card per turn}
 	\end{itemize}
 \end{itemize}
 %---
 \subsubsection{End of the party}
 \begin{itemize}
-\item The party is over when one player have his health points to 0 (or less).
-\item If the player (the gamer of Kliferhian) win the party. He win a card from the NPC.
+\item The party is over when one player have his health points down to 0 (or less).
+\item If the player (the IRL player) wins the party. They wins a card from the NPC.
 	\begin{itemize}
-		\item Possibility to play against almost the NPC of Kliferhian.
+		\item Possibility to play against almost all of the NPCs of Kliferhian.
 			\begin{itemize}
 				\item Several NPCs have the common cards.
-				\item In Kliferhian, the player will have search specifics NPCs for certain rare cards.
+				\item In Kliferhian, the player will have to search for specific NPCs for certain rare cards.
 			\end{itemize}
 	\end{itemize}
 \end{itemize}
@@ -512,9 +514,9 @@ This card game is an annex activity in the game. The player can play that or not
 \section{Damage range}
 \subsection{Extremums :}
 \begin{itemize}
-\item 0/5 (Defensive only with a effect for attack. Legendary Card)
-\item 5/0 (Attack only with a effect for defense. Legendary Card)
-\item 5/5 (Legendary. Unique card. The player found that card on an annex boss at the end of Kliferhian.)
+\item 0/5 (Defensive only with an effect for attacking. Legendary Card)
+\item 5/0 (Attack only with an effect for defense. Legendary Card)
+\item 5/5 (Legendary. Unique card. The player finds that card on an optional boss near the end of the game.)
 \end{itemize}
 \newpage
 \subsection{Other damage :}
@@ -564,26 +566,26 @@ This list is not definitive.
 \begin{itemize}
 	\item Commons :
 	\begin{itemize}
-		\item Paralyzed the monster for 1 turn
-		\item Paralyzed the monster for 2 turn
+		\item Paralyzes the monster for 1 turn
+		\item Paralyzes the monster for 2 turn
 		\item Suppression of the monster until end of turn
 		\item Returns the monster in the hand of his opponent
-		\item Removes 1 health point to the monster
-		\item Removes 2 health point to the monster
-		\item Engage an other monster on the battlefield (the defending player choose)
+		\item Removes 1 health point from the monster
+		\item Removes 2 health points from the monster
+		\item Engages an other monster on the battlefield (the defending player chooses)
 		\item ...
 	\end{itemize}
 	\item Rare :
 	\begin{itemize}
-		\item Paralyzed the monster for 3 turn
-		\item Kill the monster card (Unique card)
-		\item Removes 3 health point to the monster
-		\item Engage all monsters of of the opponent (Unique card)
+		\item Paralyzes the monster for 3 turn
+		\item Kills the monster card (Unique card)
+		\item Removes 3 health points from the monster
+		\item Engages all monsters of of the opponent (Unique card)
 		\item ...
 	\end{itemize}
 	\item Unique legendary card :
 	\begin{itemize}
-		\item Kill all monsters of the opponent
+		\item Kills all monsters of the opponent
 	\end{itemize}
 \end{itemize}
 %--
@@ -592,22 +594,22 @@ This list is not definitive.
 	\item Commons :
 	\begin{itemize}
 		\item The opponent discards 1 card (Chosen by the caster)
-		\item The opponent discards 2 card (Chosen by the caster)
+		\item The opponent discards 2 cards (Chosen by the caster)
 		\item Cancels the attack of an attacking monster
-		\item Removes 1 health points to target monster (attack or not)
-		\item Removes 2 health points to target monster (attack or not)
-		\item Engage an opponent's monster
+		\item Removes 1 health point from a targetted monster (attack or not)
+		\item Removes 2 health points from a targetted monster (attack or not)
+		\item Engages an opponent's monster
 		\item ...
 	\end{itemize}
 	\item Rare :
 	\begin{itemize}
-		\item The opponent discards 3 card (Chosen by the caster)
+		\item The opponent discards 3 cards (Chosen by the caster)
 		\item Cancels the attack of 2 attacking monsters
-		\item Cancels the attack all attacking monsters (Unique card)
-		\item Removes 3 health points to target monster (attack or not)
-		\item Resurrect a monster of your own cemetery
-		\item Resurrect a monster of the opponent's cemetery and take the control (Unique card)
-		\item Pick up an instant card or a trap card of your own cemetery
+		\item Cancels the attack of all attacking monsters (Unique card)
+		\item Removes 3 health points from a targetted monster (attack or not)
+		\item Resurrects a monster from your own cemetery
+		\item Resurrects a monster from the opponent's cemetery and takes the control of it (Unique card)
+		\item Picks up an instant card or a trap card from your own cemetery
 		\item ...
 	\end{itemize}
 	\item Unique legendary card :
@@ -621,7 +623,7 @@ This list is not definitive.
 \section{Schema of the game board}
 \begin{figure}[h]
 	\centering
-		\includegraphics{E:/Documents/Github/Klifehrian/Specifications/gameboardcard.jpg}
+		\includegraphics{gameboardcard.jpg}
 	\caption{Schema of the game board}
 	\label{fig:gameboardcard}
 \end{figure}
