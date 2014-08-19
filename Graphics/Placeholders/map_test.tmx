@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="feryuu" tilewidth="24" tileheight="40">
+  <image source="../feryuu.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="17" name="feryuu" tilewidth="24" tileheight="40">
+  <image source="../feryuu.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="33" name="tree2" tilewidth="32" tileheight="32">
+  <image source="tree2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="37" name="dirt" tilewidth="32" tileheight="32">
+  <image source="dirt.png" width="96" height="96"/>
+  <terraintypes>
+   <terrain name="dirt" tile="-1"/>
+  </terraintypes>
+  <tile id="0" terrain="0,0,0,"/>
+  <tile id="1" terrain="0,0,,"/>
+  <tile id="2" terrain="0,0,,0"/>
+  <tile id="3" terrain="0,,0,"/>
+  <tile id="5" terrain=",0,,0"/>
+  <tile id="6" terrain="0,,0,0"/>
+  <tile id="7" terrain=",,0,0"/>
+  <tile id="8" terrain=",0,0,0"/>
+ </tileset>
+ <tileset firstgid="46" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="32" height="32"/>
+ </tileset>
+ <layer name="grass" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlUEKgDAMBPMZTWts//88WzAYQVAP7ip4GHIpTJtsaBWRekJq5MZ04ewTsP1G9nsPWP6B+H53s/wp+DsK9vfszcFfCD3wPjDzfwcFz6lndAxVQ0X580v88Q4ov+9okv1fgcqrrV6TbV+LYHfVDvwo9893WQDpTXF6
+  </data>
+ </layer>
+ <objectgroup name="Calque d'objets 2" width="32" height="20">
+  <object gid="17" x="359" y="99"/>
+ </objectgroup>
+ <layer name="Calque 6" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjcQBGIlQbQfmUgVhlE7hgFo2AUjIJRMApGwSigFAAAk4cBFQ==
+  </data>
+ </layer>
+ <layer name="Calque 5" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuIAiECthoekFlIFYBQs9CkbBKBgFo2AUjIJRQAkAAPDDAZ8=
+  </data>
+ </layer>
+ <layer name="trees back" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuIAiECthoQfaHfQGykCsgkSPglEwCkbBKBgFo2BoAwCztQHe
+  </data>
+ </layer>
+ <objectgroup name="Calque d'objets 3" width="32" height="20">
+  <object gid="18" x="332" y="128"/>
+ </objectgroup>
+ <layer name="trees" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxEoArESHprWQBmIVfDQo2AUjIJRMApGwSgYugAAfv8CKQ==
+  </data>
+ </layer>
+ <objectgroup name="feryuus" width="32" height="20">
+  <object gid="17" x="388" y="170"/>
+  <object gid="20" x="243" y="189"/>
+  <object gid="25" x="369" y="202"/>
+ </objectgroup>
+</map>
