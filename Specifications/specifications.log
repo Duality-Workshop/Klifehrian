@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.4)  19 AUG 2014 08:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.4)  20 AUG 2014 00:21
 entering extended mode
 **D:/Libraries/Documents/GitHub/Klifehrian/Specifications/specifications.tex
 (D:/Libraries/Documents/GitHub/Klifehrian/Specifications/specifications.tex
@@ -247,71 +247,88 @@ Chapter 3.
 
 ]
 Chapter 4.
-[15] [16]
-Chapter 5.
-[17
+<worldmap.png, id=57, 154.176pt x 115.632pt>
+File: worldmap.png Graphic file (type png)
+ <use worldmap.png>
+Package pdftex.def Info: worldmap.png used on input line 143.
+(pdftex.def)             Requested size: 308.3512pt x 231.26343pt.
 
-] [18] [19] [20] [21] [22] [23] [24
+<worldmap_cities.png, id=58, 154.176pt x 115.632pt>
+File: worldmap_cities.png Graphic file (type png)
+ <use worldmap_cities.png>
+Package pdftex.def Info: worldmap_cities.png used on input line 153.
+(pdftex.def)             Requested size: 308.3512pt x 231.26343pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <D:/Libraries/Documents/GitHub/Klifehrian/Specifications/worldmap.png (PNG 
+copy)>] [16 <D:/Libraries/Documents/GitHub/Klifehrian/Specifications/worldmap_c
+ities.png (PNG copy)>] [17] [18
+
+]
+Chapter 5.
+[19] [20] [21] [22] [23] [24] [25] [26
 
 ]
 Chapter 6.
-[25] [26] [27] [28] [29] [30] [31]
-<gameboardcard.jpg, id=111, 436.63126pt x 370.38374pt>
+[27] [28] [29] [30] [31] [32] [33]
+<gameboardcard.jpg, id=119, 436.63126pt x 370.38374pt>
 File: gameboardcard.jpg Graphic file (type jpg)
  <use gameboardcard.jpg>
-Package pdftex.def Info: gameboardcard.jpg used on input line 625.
+Package pdftex.def Info: gameboardcard.jpg used on input line 635.
 (pdftex.def)             Requested size: 436.63019pt x 370.38283pt.
 
-Overfull \hbox (46.63019pt too wide) in paragraph at lines 625--626
+Overfull \hbox (46.63019pt too wide) in paragraph at lines 635--636
  [][] 
  []
 
-[32 <D:/Libraries/Documents/GitHub/Klifehrian/Specifications/gameboardcard.jpg>
-] [33
+[34 <D:/Libraries/Documents/GitHub/Klifehrian/Specifications/gameboardcard.jpg>
+] [35
 
-] [34]
+] [36]
 Chapter 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--638
+Underfull \hbox (badness 10000) in paragraph at lines 645--648
 
  []
 
-[35
+[37
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 661.
+(Font)              <12> on input line 671.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 661.
+(Font)              <8> on input line 671.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 661.
+(Font)              <6> on input line 671.
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--678
+Underfull \hbox (badness 10000) in paragraph at lines 668--688
 
  []
 
 
-Overfull \hbox (1.43301pt too wide) in paragraph at lines 658--678
+Overfull \hbox (1.43301pt too wide) in paragraph at lines 668--688
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--678
+Underfull \hbox (badness 10000) in paragraph at lines 668--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--678
+Underfull \hbox (badness 10000) in paragraph at lines 668--688
 
  []
 
-[36] [37]
+[38] [39]
 (D:\Libraries\Documents\GitHub\Klifehrian\Specifications\specifications.aux) ) 
 Here is how much of TeX's memory you used:
- 2100 strings out of 493921
- 27929 string characters out of 3143671
- 81315 words of memory out of 3000000
- 5368 multiletter control sequences out of 15000+200000
+ 2113 strings out of 493921
+ 28161 string characters out of 3143671
+ 81337 words of memory out of 3000000
+ 5378 multiletter control sequences out of 15000+200000
  62100 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,43p,617b,260s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -323,9 +340,9 @@ KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><D:/Program Files/Programs/MiKTeX 2.9/
 fonts/type1/public/lm/lmr17.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmri12.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmsy10.pfb>
-Output written on specifications.pdf (39 pages, 220159 bytes).
+Output written on specifications.pdf (41 pages, 241992 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

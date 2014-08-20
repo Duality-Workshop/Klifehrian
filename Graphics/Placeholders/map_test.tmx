@@ -9,26 +9,35 @@
  <tileset firstgid="33" name="tree2" tilewidth="32" tileheight="32">
   <image source="tree2.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="37" name="dirt" tilewidth="32" tileheight="32">
-  <image source="dirt.png" width="96" height="96"/>
-  <terraintypes>
-   <terrain name="dirt" tile="-1"/>
-  </terraintypes>
-  <tile id="0" terrain="0,0,0,"/>
-  <tile id="1" terrain="0,0,,"/>
-  <tile id="2" terrain="0,0,,0"/>
-  <tile id="3" terrain="0,,0,"/>
-  <tile id="5" terrain=",0,,0"/>
-  <tile id="6" terrain="0,,0,0"/>
-  <tile id="7" terrain=",,0,0"/>
-  <tile id="8" terrain=",0,0,0"/>
- </tileset>
- <tileset firstgid="46" name="grass" tilewidth="32" tileheight="32">
+ <tileset firstgid="37" name="grass" tilewidth="32" tileheight="32">
   <image source="grass.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="38" name="dirt" tilewidth="32" tileheight="32">
+  <image source="dirt.png" width="96" height="192"/>
+  <terraintypes>
+   <terrain name="Dirt" tile="1"/>
+   <terrain name="Grass" tile="16"/>
+  </terraintypes>
+  <tile id="0" terrain="1,1,1,1"/>
+  <tile id="2" terrain="1,0,0,0"/>
+  <tile id="3" terrain="1,1,1,0"/>
+  <tile id="4" terrain="1,1,0,0"/>
+  <tile id="5" terrain="1,1,0,1"/>
+  <tile id="6" terrain="1,0,1,0"/>
+  <tile id="7" terrain="0,0,0,0"/>
+  <tile id="8" terrain="0,1,0,1"/>
+  <tile id="9" terrain="1,0,1,1"/>
+  <tile id="10" terrain="0,0,1,1"/>
+  <tile id="11" terrain="0,1,1,1"/>
+  <tile id="12" terrain="0,1,0,0"/>
+  <tile id="13" terrain="0,0,1,0"/>
+  <tile id="14" terrain="0,0,0,1"/>
+  <tile id="15" terrain="0,1,1,0"/>
+  <tile id="17" terrain="1,0,0,1"/>
  </tileset>
  <layer name="grass" width="32" height="20">
   <data encoding="base64" compression="zlib">
-   eJztlUEKgDAMBPMZTWts//88WzAYQVAP7ip4GHIpTJtsaBWRekJq5MZ04ewTsP1G9nsPWP6B+H53s/wp+DsK9vfszcFfCD3wPjDzfwcFz6lndAxVQ0X580v88Q4ov+9okv1fgcqrrV6TbV+LYHfVDvwo9893WQDpTXF6
+   eJztlEsKwCAMBT2NaFtb+6P3v1kTSECycuPLxsWgC2GSFzWGEGIHG7F3nh2Blz8Tq6NfvZ7+i/iIV7JA+4vUkGRF1sD+h7ilDt6fQP8huacmh8Uhg2JAzSE3vVsQ74Hzr2b+VUDeA52B1x+sOSB7nkwmY/kBK59hEw==
   </data>
  </layer>
  <objectgroup name="Calque d'objets 2" width="32" height="20">
@@ -62,4 +71,9 @@
   <object gid="20" x="243" y="189"/>
   <object gid="25" x="369" y="202"/>
  </objectgroup>
+ <layer name="Calque 6" width="32" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxTY2BgUBvFJGFNINYCYu0Bsl8HiHWBWG8A/AtimwOxARAb0sl+fah9plC7TQco7HWgYa5PR7+j22/EMDBpDzne6Rn3yGlgIMJ8FI/iUTyKhysGAMUlYCI=
+  </data>
+ </layer>
 </map>
