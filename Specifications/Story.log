@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.4)  19 AUG 2014 10:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.4)  26 AUG 2014 14:51
 entering extended mode
 **D:/Libraries/Documents/GitHub/Klifehrian/Specifications/Story.tex
 (D:/Libraries/Documents/GitHub/Klifehrian/Specifications/Story.tex
@@ -246,25 +246,26 @@ Chapter 2.
 Chapter 3.
 [9
 
-] (D:\Libraries\Documents\GitHub\Klifehrian\Specifications\Story.aux) ) 
+] [10] [11]
+(D:\Libraries\Documents\GitHub\Klifehrian\Specifications\Story.aux) ) 
 Here is how much of TeX's memory you used:
  2071 strings out of 493921
  27441 string characters out of 3143671
- 77169 words of memory out of 3000000
+ 79169 words of memory out of 3000000
  5348 multiletter control sequences out of 15000+200000
  43078 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,43p,742b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Prog
-ram Files/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Program File
-s/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<D:/Program Files/Programs/M
-iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><D:/Program Files/Programs/MiKTeX 2.
-9/fonts/type1/public/lm/lmr12.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmr17.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmsy10.pfb>
-Output written on Story.pdf (11 pages, 90393 bytes).
+ 27i,6n,43p,742b,189s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Progra
+m Files/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Program Files/
+Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<D:/Program Files/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmbx12.pfb><D:/Program Files/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmr12.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr17.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/type1/public
+/lm/lmsy10.pfb>
+Output written on Story.pdf (13 pages, 97264 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
