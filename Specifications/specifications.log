@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.4)  25 AUG 2014 19:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.4)  27 AUG 2014 21:28
 entering extended mode
 **D:/Libraries/Documents/GitHub/Klifehrian/Specifications/specifications.tex
 (D:/Libraries/Documents/GitHub/Klifehrian/Specifications/specifications.tex
@@ -237,9 +237,9 @@ Chapter 2.
 
 ] [6] [7
 
-] [8] [9] [10
+] [8] [9] [10] [11
 
-] [11] [12]
+] [12]
 Chapter 3.
 [13
 
@@ -248,13 +248,13 @@ Chapter 4.
 <worldmap.png, id=57, 154.176pt x 115.632pt>
 File: worldmap.png Graphic file (type png)
  <use worldmap.png>
-Package pdftex.def Info: worldmap.png used on input line 163.
+Package pdftex.def Info: worldmap.png used on input line 170.
 (pdftex.def)             Requested size: 308.3512pt x 231.26343pt.
 
 <worldmap_cities.png, id=58, 154.176pt x 115.632pt>
 File: worldmap_cities.png Graphic file (type png)
  <use worldmap_cities.png>
-Package pdftex.def Info: worldmap_cities.png used on input line 173.
+Package pdftex.def Info: worldmap_cities.png used on input line 180.
 (pdftex.def)             Requested size: 308.3512pt x 231.26343pt.
 
 
@@ -276,10 +276,10 @@ Chapter 6.
 <gameboardcard.jpg, id=119, 436.63126pt x 370.38374pt>
 File: gameboardcard.jpg Graphic file (type jpg)
  <use gameboardcard.jpg>
-Package pdftex.def Info: gameboardcard.jpg used on input line 679.
+Package pdftex.def Info: gameboardcard.jpg used on input line 686.
 (pdftex.def)             Requested size: 436.63019pt x 370.38283pt.
 
-Overfull \hbox (46.63019pt too wide) in paragraph at lines 679--680
+Overfull \hbox (46.63019pt too wide) in paragraph at lines 686--687
  [][] 
  []
 
@@ -289,7 +289,7 @@ Overfull \hbox (46.63019pt too wide) in paragraph at lines 679--680
 ] [36]
 Chapter 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--692
+Underfull \hbox (badness 10000) in paragraph at lines 696--699
 
  []
 
@@ -297,28 +297,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 689--692
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 715.
+(Font)              <12> on input line 722.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 715.
+(Font)              <8> on input line 722.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 715.
+(Font)              <6> on input line 722.
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--732
+Underfull \hbox (badness 10000) in paragraph at lines 719--739
 
  []
 
 
-Overfull \hbox (1.43301pt too wide) in paragraph at lines 712--732
+Overfull \hbox (1.43301pt too wide) in paragraph at lines 719--739
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--732
+Underfull \hbox (badness 10000) in paragraph at lines 719--739
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--732
+Underfull \hbox (badness 10000) in paragraph at lines 719--739
 
  []
 
@@ -340,7 +340,7 @@ KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><D:/Program Files/Programs/MiKTeX 2.9/
 fonts/type1/public/lm/lmr17.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmri12.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmsy10.pfb>
-Output written on specifications.pdf (41 pages, 243438 bytes).
+Output written on specifications.pdf (41 pages, 244649 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

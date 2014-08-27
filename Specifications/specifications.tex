@@ -93,11 +93,11 @@ Moi
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section*{What do we want?}
-For the window size, we chose a resolution of 1024x692 pixels. If the display is set to be fullscreen, 2 black bands are displayed at the top and bottom; inside, some information of the game state, as, for example: characters' status, inventory, etc. (The player can change the displayed information).
+For the window size, we chose a resolution of 1024x692 pixels. If the display is set to be fullscreen, 2 black bands are displayed at the top and bottom (letterbox); some information about the game state can be displayed inside those bars, eg. characters' status, inventory, etc. (the player can change the displayed information).
 \begin{itemize}
-	\item The player can move in eight directions : up, down, left, right and diagonals. This implies a per-pixel configuration for moving.
+	\item The player can move in eight directions : up, down, left, right and the according diagonals. This implies a per-pixel configuration for moving.
 	\item The player can interact with objects (chests, doors, ...), people, animals.
-	\item The player can jump (in certain sections of the map only).
+	\item The player can jump contextually.
 	\item The player can display the HUD when the game is in window mode with the HUD key (can be toggled between a "switch" or a "keep pressing" option). By default, the key used is [Alt].
 	\item Collisions against :
 	\begin{itemize}
@@ -107,6 +107,13 @@ For the window size, we chose a resolution of 1024x692 pixels. If the display is
 		\item People
 		\item Objects
 		\item Monsters
+	\end{itemize}
+	\item No random encounters, the monsters wander the map by themselves. However, it is still possible to force a random encounter by selecting the ``Look for a Fight'' option in the menu (name may vary in final product).
+	\item (Suggestion) Difficulty levels
+	\begin{itemize}
+		\item A Casual Mode, in which the monsters on the map don't attack the player until collided with. Everything else is the same.
+		\item A Hard Mode, in which the ``Look for a Fight'' menu is limited, the roaming monsters are more abundant, stronger, and can see the player from farther.
+		\item A Hardcore Mode? Very limited potions, that can only be dropped rarely?
 	\end{itemize}
 \end{itemize}
 The maps are created with Tiled and exported to XML for the 2D engine. See the gameplay part for specifics on the world of Klifehrian.
@@ -127,17 +134,17 @@ Main protagonist. Curly brown hair. Polyvalent.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section{Maeram}
-Childhood friend. Ginger. INT-oriented, only PC capable of Light based spells (healing magic).
+Childhood friend. Ginger, long hair. INT-oriented, only PC capable of Light based spells (healing magic).
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section{Rufio}
-Ren'D\^{u}r's best friend. AGI-oriented, dagger proficient.
+Ren'D\^{u}r's best friend. DEX-oriented, dagger proficient.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \section{Hezul}
-Hybrid living in the forest north of Gutuid. Has joined a secret faction. AGI-oriented, archer.
+Hybrid living in the forest north of Gutuid. Has joined a secret faction. DEX-oriented, archer.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -185,7 +192,7 @@ Festive city and crossroads of the continent.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \subsection{Unnamed town}
-A town I put between Danlemaup and Terdal but forgot all about it. Probably gonna make it be a small town of some sort.
+A town I put between Danlemaup and Terdal but forgot all about it. Probably gonna make it be a small town of some sort. I'm thinking of making it optional, too.
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
 \subsection{Kalum Harbor}
