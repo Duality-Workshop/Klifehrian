@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.4)  28 AUG 2014 21:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.4)  11 OCT 2014 14:31
 entering extended mode
 **D:/Libraries/Documents/GitHub/Klifehrian/Specifications/specifications.tex
 (D:/Libraries/Documents/GitHub/Klifehrian/Specifications/specifications.tex
@@ -327,7 +327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 719--739
 Here is how much of TeX's memory you used:
  2113 strings out of 493921
  28161 string characters out of 3143671
- 81337 words of memory out of 3000000
+ 81371 words of memory out of 3000000
  5378 multiletter control sequences out of 15000+200000
  62100 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -340,7 +340,7 @@ KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><D:/Program Files/Programs/MiKTeX 2.9/
 fonts/type1/public/lm/lmr17.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmri12.pfb><D:/Program Files/Programs/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmsy10.pfb>
-Output written on specifications.pdf (41 pages, 244730 bytes).
+Output written on specifications.pdf (41 pages, 245460 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
