@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Dirt" tilewidth="32" tileheight="32">
+  <image source="dirt.png" width="96" height="192"/>
+  <terraintypes>
+   <terrain name="Dirt" tile="1"/>
+   <terrain name="Grass" tile="16"/>
+  </terraintypes>
+  <tile id="0" terrain="1,1,1,1"/>
+  <tile id="2" terrain="1,0,0,0"/>
+  <tile id="3" terrain="1,1,1,0"/>
+  <tile id="4" terrain="1,1,0,0"/>
+  <tile id="5" terrain="1,1,0,1"/>
+  <tile id="6" terrain="1,0,1,0"/>
+  <tile id="7" terrain="0,0,0,0"/>
+  <tile id="8" terrain="0,1,0,1"/>
+  <tile id="9" terrain="1,0,1,1"/>
+  <tile id="10" terrain="0,0,1,1"/>
+  <tile id="11" terrain="0,1,1,1"/>
+  <tile id="12" terrain="0,1,0,0"/>
+  <tile id="13" terrain="0,0,1,0"/>
+  <tile id="14" terrain="0,0,0,1"/>
+  <tile id="15" terrain="0,,1,0"/>
+  <tile id="17" terrain="1,0,0,1"/>
+ </tileset>
+ <tileset firstgid="19" name="tree2" tilewidth="32" tileheight="32">
+  <image source="tree2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="feryuu" tilewidth="24" tileheight="40">
+  <image source="../feryuu.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="39" name="rocks" tilewidth="32" tileheight="32">
+  <image source="rocks.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="57" name="dirt" tilewidth="32" tileheight="32">
+  <image source="dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="75" name="bush" tilewidth="32" tileheight="32">
+  <image source="bush.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="76" name="feryuu_update_test" tilewidth="24" tileheight="40">
+  <image source="../feryuu_update_test.png" width="50" height="40"/>
+ </tileset>
+ <layer name="ground" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlVEPgjAMhMtEQUSX8f9/rFug4Ww6JfHckw8NCYF+bXe9dSLSkWLIcYUnK++f347f5zg7cWnEL/+OTtwP1MHkxxy3HI9KHd5sWPwEnJMzC61N68Nvv+VPTt9pY+q7kjvIqpXF1MLQf7/1Ep28ylf2TDz/AHnwrJWD7y2bdf7eDlgtRIcdiHxPA+MbNrt/W4fVes0Dfu2/04caWvg/atDWwOTjPVA4uu/oR9YLGf5j+0yy+03tbkA/nMl81XuQVz3ibqgf2TkwtF/bNdxRnbmdwxHOEyvPCe8=
+  </data>
+ </layer>
+ <objectgroup name="back feryuus" width="32" height="20">
+  <object gid="23" x="269" y="219"/>
+  <object gid="36" x="452" y="334"/>
+  <object gid="32" x="268" y="467"/>
+ </objectgroup>
+ <layer name="trees" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOEAViMSqZNdiBMBCLINH41JBrNj4xWFjjC3Ny4wObvoGKW5i/NdD4tLRLHUkM5m9tND4tALFmExsGlIQVPr3EupOSsMKlFxY3xOQRWgJi8wi13ESuOeTEgQYWMXrmf1heI+RnWsc3IT+jy9Mz/WEDI6n+HQpgqKQHAH0XBzY=
+  </data>
+ </layer>
+ <layer name="front trees" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcCAOxCBXMIReIArEYlc0c7H4i5D5auF8diU3IfbSIk4EA2MLRm8b2IJtPr3AcLPEFC4eByn+wcMAXHoTcRov0gQyIjStywxCb+zXIMIfcNIXNfm0S1Q9XMJL8OpTBQLcfiLUfAIV0Bgo=
+  </data>
+ </layer>
+ <objectgroup name="feryuus" width="32" height="20">
+  <object gid="23" x="284" y="271"/>
+  <object gid="30" x="213" y="375"/>
+  <object gid="37" x="158" y="179"/>
+  <object gid="27" x="178" y="179"/>
+  <object gid="26" x="394" y="404"/>
+  <object gid="28" x="583" y="272"/>
+  <object gid="76" x="312" y="270"/>
+ </objectgroup>
+</map>
